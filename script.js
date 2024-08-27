@@ -24,6 +24,7 @@ function descriptografar(){
 
 function criarOutput(texto) {
     var textarea = document.createElement("textarea");
+    textarea.id = "input-texto";
     textarea.value = texto;
     textarea.readOnly = true;
     outInput.innerHTML = "";
